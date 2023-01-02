@@ -1,82 +1,82 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
+<head>
+    <meta charset="UTF-8"/>
     <title>Ugrinchuk CV</title>
-  </head>
-  <body>
-    <table cellspacing="15">
-      <tr>
-        <td>
-          <img src="avatar.jpeg" width="200" alt="тут моя фотка" />
-        </td>
-        <td>
-          <h1>Олуг Угринчук</h1>
-          <p><em>Я основатель одноименного <strong>Youtube канала</strong></em></p>
-          <p>Я люблю слухати музику, займатись спортом та програмувати</p>
-        </td>
-      </tr>
-    </table>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container">
+    <div class="info">
+        <img class="avatar" src="avatar.JPG" width="200" alt="моє фото"/>
 
-    <hr>
+        <div class="info-text">
+        <h1>Олег Угринчук</h1>
+        <p>Веду свій <strong>Youtube канал</strong></p>
+        <p>Я люблю слухати музику, займатись спортом та програмувати</p>
+    <div class="social">
+        <h2>Мої соціальні мережі</h2>
 
-    <h2>Мої соціальні мережі</h2>
-    <ul>
-      <li><a href="https://instagram.com/vladilen.minin" target="_blank">Instagram</a></li>
-      <li><a target="_blank" href="https://t.me/js_by_vladilen">Telegram</a></li>
-    </ul>
+            <a href="https://instagram.com/vladilen.minin" target="_blank">Instagram</a>
+            |
+            <a target="_blank" href="https://t.me/js_by_vladilen">Telegram</a>
+    </div>
+    </div>
+    </div>
 
-    <hr>
+    <div class="card bg-yellow">
+        <h2>Мої хобі</h2>
+        <ol class="list">
+            <li>Реп-виконавець</li>
+            <li>Баскетбол</li>
+            <li>Подорожування</li>
+        </ol>
 
-    <h2>Мої хобі</h2>
-    <ol>
-      <li>Реп-виконавець</li>
-      <li>Баскетбол</li>
-      <li>Подорожування</li>
-    </ol>
+    </div>
 
-    <hr>
+    <div class="card bg-green">
+        <h2>Досвід роботи</h2>
+        <table class="table">
+            <tr>
+                <td>IT-PRO</td>
+                <td>Support manager</td>
+                <td>2019 - 2022</td>
+            </tr>
+        </table>
 
-    <h2>Досвід роботи</h2>
-    <table>
-      <tr>
-        <th>Компанія</th>
-        <th>Посада</th>
-        <th>Рік</th>
-      </tr>
-      <tr>
-        <td>IT-PRO</td>
-        <td>Support manager</td>
-        <td>2019 - 2022</td>
-      </tr>
-    </table>
+    </div>
 
-    <hr>
+    <div class="card bg-red">
+        <h2>Мій ЮТУБ-канал</h2>
+        <a href="https://www.youtube.com/channel/UCUjWrug_NOtcr4eAXqytH6g">Переходь за посиланням!</a>
 
-    <h2>Мій ЮТУБ-канал</h2>
-    <a href="youtube.html">Посмотреть список</a>
+        <hr>
+    </div>
+    <div class="contact">
+        <h2>Зв'язатись зі мною</h2>
 
-    <hr>
-    <h2>Зв'язатись зі мною</h2>
+        <form action="/">
+            <div class="row">
+                <div class="form-group">
+                    <label for="name">Ваше ім'я</label>
+                    <input type="text" id="name" placeholder="Введіть ваше ім'я">
+                </div>
 
-    <form action="/">
-      <label for="name">Ваше ім'я</label>
-      <input type="text" id="name" placeholder="Введіть ваше ім'я">
 
-      <br>
+                <div class="form-group">
+                    <label for="email">Ваш Email:</label>
+                    <input type="email" id="email" placeholder="Введіть email...">
+                </div>
+            </div>
 
-      <label for="email">Ваш Email:</label>
-      <input type="email" id="email" placeholder="Введіть email...">
+            <div class="form-group">
+                <label for="text">Ваше повідомлення:</label>
+            <textarea id="text" rows="2" cols="15"></textarea>
+            </div>
+            <input  class="btn" type="submit" value="Зв'язатись!">
 
-      <br>
-
-      <label for="text">Ваше повідомлення:</label>
-      <br>
-      <textarea id="text" rows="2" cols="15"></textarea>
-
-      <br>
-
-      <input type="submit" value="Зв'язатись!">
-    </form>
-  </body>
+        </form>
+    </div>
+</div>
+</body>
 </html>
